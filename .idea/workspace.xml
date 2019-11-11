@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d46e7540-26ad-48fa-bfea-d8ed2a519ea3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-config/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-config/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-config/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-config/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-config/src/main/java/com/jd/JdConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-config/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-config/src/test/java/com/jd/JdConfigApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-consumer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-consumer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-consumer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-consumer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-consumer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-consumer/src/main/java/com/jd/JdConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-consumer/src/main/java/com/jd/controller/JdControllerFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-consumer/src/test/java/com/jd/JdConsumerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-eureka/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-eureka/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-eureka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-eureka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-eureka/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-eureka/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-eureka/src/main/java/com/jd/JdEurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-eureka/src/test/java/com/jd/JdEurekaApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-provider/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-provider/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-provider/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-provider/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-provider/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-provider/src/main/java/com/jd/JdProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-provider/src/main/java/com/jd/controller/JdController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-provider/src/main/java/com/jd/mapper/JdMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-provider/src/main/java/com/jd/service/JdService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-provider/src/main/java/com/jd/service/JdSeviceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-provider/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-provider/src/test/java/com/jd/JdProviderApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-service-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-service-api/src/main/java/com/jd/service/JdServiceError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-service-api/src/main/java/com/jd/service/JdServiceFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-service-api/target/classes/com/jd/service/JdServiceError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-service-api/target/classes/com/jd/service/JdServiceFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-zuul/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-zuul/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-zuul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-zuul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-zuul/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-zuul/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-zuul/src/main/java/com/jd/JdZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-zuul/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-zuul/src/test/java/com/jd/JdZuulApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/jd-common/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/jd-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/jd-service-api/target/" />
+    <ignored path="$PROJECT_DIR$/jd-provider/target/" />
+    <ignored path="$PROJECT_DIR$/jd-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/jd-config/target/" />
+    <ignored path="$PROJECT_DIR$/jd-zuul/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jd-config/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jd-provider/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jd-zuul/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jd-consumer/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jd-service-api/src/main/java/com/jd/service/JdServiceError.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jd-eureka/src/main/java/com/jd/JdEurekaApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jd-eureka/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jd-service-api/src/main/java/com/jd/service/JdServiceFeign.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jd-provider/src/main/java/com/jd/controller/JdController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jd-config/src/main/java/com/jd/JdConfigApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/jd-consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/jd-provider/src/main/java/com/jd/controller/JdController.java" />
+        <option value="$PROJECT_DIR$/jd-service-api/src/main/java/com/jd/service/JdServiceError.java" />
+        <option value="$PROJECT_DIR$/jd-provider/src/main/resources/bootstrap.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="470" />
+    <option name="width" value="1050" />
+    <option name="height" value="1049" />
+  </component>
+  <component name="ProjectId" id="1TQAPzFOCvOz0B0arNXnRhyZNhm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jd" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jd" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-service-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-service-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-zuul" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-jd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-jd" type="462c0819:PsiDirectoryNode" />
+              <item name="jd-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="D:/git/Git/cmd/git.exe" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jd.filter" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.JdConsumerApplication">
+    <configuration name="JdConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jd-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jd.JdConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jd-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jd.JdConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jd-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jd.JdEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jd-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jd.JdProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jd-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jd.JdZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d46e7540-26ad-48fa-bfea-d8ed2a519ea3" name="Default Changelist" comment="" />
+      <created>1573381925976</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573381925976</updated>
+      <workItem from="1573381929532" duration="4127000" />
+      <workItem from="1573391462298" duration="270000" />
+      <workItem from="1573392013621" duration="696000" />
+      <workItem from="1573430096775" duration="143000" />
+      <workItem from="1573430287267" duration="19000" />
+      <workItem from="1573436198143" duration="162000" />
+      <workItem from="1573436442616" duration="2677000" />
+      <workItem from="1573439540786" duration="2732000" />
+      <workItem from="1573446352280" duration="2238000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7971000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18632708" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22623828" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="6" visible="true" weight="0.31233245" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32931727" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/jd-consumer/src/main/java/com/jd/controller/JdControllerFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-config/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-service-api/src/main/java/com/jd/service/JdServiceError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-eureka/src/main/java/com/jd/JdEurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-service-api/src/main/java/com/jd/service/JdServiceFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-provider/src/main/java/com/jd/controller/JdController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-config/src/main/java/com/jd/JdConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-provider/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
