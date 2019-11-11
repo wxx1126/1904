@@ -1,78 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d46e7540-26ad-48fa-bfea-d8ed2a519ea3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-config/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-config/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-config/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-config/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-config/src/main/java/com/jd/JdConfigApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-config/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-config/src/test/java/com/jd/JdConfigApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-consumer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-consumer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-consumer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-consumer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-consumer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-consumer/src/main/java/com/jd/JdConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-consumer/src/main/java/com/jd/controller/JdControllerFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-consumer/src/test/java/com/jd/JdConsumerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-eureka/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-eureka/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-eureka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-eureka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-eureka/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-eureka/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-eureka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-eureka/src/main/java/com/jd/JdEurekaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-eureka/src/test/java/com/jd/JdEurekaApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-provider/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-provider/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-provider/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-provider/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-provider/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-provider/src/main/java/com/jd/JdProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-provider/src/main/java/com/jd/controller/JdController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-provider/src/main/java/com/jd/mapper/JdMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-provider/src/main/java/com/jd/service/JdService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-provider/src/main/java/com/jd/service/JdSeviceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-provider/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-provider/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-provider/src/test/java/com/jd/JdProviderApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-service-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-service-api/src/main/java/com/jd/service/JdServiceError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-service-api/src/main/java/com/jd/service/JdServiceFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-service-api/target/classes/com/jd/service/JdServiceError.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-service-api/target/classes/com/jd/service/JdServiceFeign.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-zuul/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-zuul/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-zuul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-zuul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-zuul/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-zuul/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-zuul/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-zuul/src/main/java/com/jd/JdZuulApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-zuul/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-zuul/src/test/java/com/jd/JdZuulApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d46e7540-26ad-48fa-bfea-d8ed2a519ea3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/jd-common/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/jd-consumer/target/" />
@@ -225,7 +154,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="470" />
     <option name="width" value="1050" />
     <option name="height" value="1049" />
@@ -630,15 +559,15 @@
       <workItem from="1573436198143" duration="162000" />
       <workItem from="1573436442616" duration="2677000" />
       <workItem from="1573439540786" duration="2732000" />
-      <workItem from="1573446352280" duration="2238000" />
+      <workItem from="1573446352280" duration="3696000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7971000" />
+    <option name="totallyTimeSpent" value="9429000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18632708" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
